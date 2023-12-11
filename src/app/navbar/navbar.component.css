@@ -1,0 +1,59 @@
+.navigation {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 48px;
+    position: relative;
+  }
+  
+  .navigation .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .navigation .logo-YOLO-tech {
+    position: relative;
+    width: 148.07px;
+    height: 48px;
+  }
+  
+  .navigation .btn-primary-NEW {
+    display: inline-flex;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0px 24px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--newprimarywhite);
+    border-radius: 48px;
+    border: 2px solid;
+    border-color: var(--newprimaryblue);
+  }
+  
+  .navigation .button {
+    position: relative;
+    width: 188px;
+    font-family: var(--ACTION-1-button-font-family);
+    font-weight: var(--ACTION-1-button-font-weight);
+    color: var(--newprimaryblue);
+    font-size: var(--ACTION-1-button-font-size);
+    text-align: center;
+    letter-spacing: var(--ACTION-1-button-letter-spacing);
+    line-height: var(--ACTION-1-button-line-height);
+    font-style: var(--ACTION-1-button-font-style);
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .navigation .menu-NEW {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  

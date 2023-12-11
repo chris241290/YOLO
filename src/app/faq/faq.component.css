@@ -1,0 +1,128 @@
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    width: 1142px;
+    align-items: flex-start;
+    gap: 22px;
+    padding: 32px 0px;
+    position: relative;
+  }
+  
+  .FAQ .text-wrapper {
+    position: relative;
+    width: 397px;
+    margin-top: -1px;
+    font-family: var(--DESKTOP-PAGE-1-title-font-family);
+    font-weight: var(--DESKTOP-PAGE-1-title-font-weight);
+    color: var(--newprimarydark-blue);
+    font-size: var(--DESKTOP-PAGE-1-title-font-size);
+    letter-spacing: var(--DESKTOP-PAGE-1-title-letter-spacing);
+    line-height: var(--DESKTOP-PAGE-1-title-line-height);
+    font-style: var(--DESKTOP-PAGE-1-title-font-style);
+  }
+  
+  .FAQ .txt-set-informativo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .FAQ .element {
+    position: relative;
+    flex: 1;
+    font-family: "Quicksand-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--newprimarydark-blue);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .FAQ .btn-txt-NEW {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .FAQ .icon-left {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .FAQ .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .FAQ .button {
+    position: relative;
+    width: fit-content;
+    font-family: var(--ACTION-1-button-font-family);
+    font-weight: var(--ACTION-1-button-font-weight);
+    color: var(--newprimaryblue);
+    font-size: var(--ACTION-1-button-font-size);
+    letter-spacing: var(--ACTION-1-button-letter-spacing);
+    line-height: var(--ACTION-1-button-line-height);
+    white-space: nowrap;
+    font-style: var(--ACTION-1-button-font-style);
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .FAQ .div {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .FAQ .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .FAQ .accordion-NEW {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--newprimarywhite);
+    border-radius: 8px;
+    box-shadow: var(--elevation);
+  }
+  
+  .FAQ .non-posso-pi-fare-un {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: var(--DESKTOP-BOX-3-body-font-family);
+    font-weight: var(--DESKTOP-BOX-3-body-font-weight);
+    color: var(--newprimarydark-blue);
+    font-size: var(--DESKTOP-BOX-3-body-font-size);
+    letter-spacing: var(--DESKTOP-BOX-3-body-letter-spacing);
+    line-height: var(--DESKTOP-BOX-3-body-line-height);
+    font-style: var(--DESKTOP-BOX-3-body-font-style);
+  }
+  
